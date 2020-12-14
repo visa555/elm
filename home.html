@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/keen-slider/keen-slider.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="bg-gray">
+        <div class="top-menu">
+          <div class="logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <li><a href="">สิ่งอำนวยความสะดวก</a></li>
+              <li><a href="">สถานที่ตั้ง</a></li>
+              <li><a href="">ประเภทห้อง</a></li>
+              <li><a href="">โปรโมชั่น</a></li>
+            </ul>
+          </div>
+          <div>
+            <a class="-btn-transparent">ลงทะเบียนรับสิทธิพิเศษ</a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="s-slider -full -dots-in -center-m _space_0">
+                <div class="slider">
+                  <img src="https://picsum.photos/id/1/1600/500" alt="" />
+                </div>
+                <div class="slider">
+                  <img src="https://picsum.photos/id/10/1600/500" alt="" />
+                </div>
+                <div class="slider">
+                  <img src="https://picsum.photos/id/1005/1600/500" alt="" />
+                </div>
+                <div class="slider">
+                  <img src="https://picsum.photos/id/1005/1600/500" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="site-content site-info -py10 -text-center">
+        <h2>Jhomtien Beach - Prathamnak Hill - Pattaya Beach</h2>
+        <p class="-header">เริ่มต้น 1.99 ล้านบาท</p>
+        <p class="entry-content -pb4">
+          ไดมอนด์ สูท คอนโดมิเนียมหรู ทำเลเขาทัพพระยา ระหว่าง หาดพัทยาและ
+          หาดจอมเทียน พร้อมพื้นที่ส่วนกลางสะอาด ร่มรื่น สบาย
+        </p>
+        <a href="" class="-btn-action-large">ลงทะเบียนรับสิทธิพิเศษ</a>
+      </section>
+      <!--facility-->
+      <section class="site-content site-facility -pb8">
+        <div class="-text-center -pt6 -pb2 -bg-light">
+          <p class="-header -text-upper">Facilities</p>
+          <p class="entry-content">
+            สิ่งแวดล้อมรอบโครงการ ตอบรับชีวิต ทุกมิติ
+            ด้วยสิ่งอำนวยความสะดวกครบครัน ยกระดับความสุขด้วย
+            พื้นที่ส่วนกลางที่เติมเต็มความต้องการของชีวิตเหนือะดับ
+          </p>
+          <div class="-round-nav -mt4">
+            <ul class="nav nav-pills -mb3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  >Profile</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                  <img
+                    src="https://picsum.photos/id/1/1600/500"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                  <img
+                    src="https://picsum.photos/id/10/1600/500"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleInterval"
+                role="button"
+                data-slide="prev"
+              >
+                <i class="las la-angle-left bs4"></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleInterval"
+                role="button"
+                data-slide="next"
+              >
+                <i class="las la-angle-right bs4"></i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+            Profile Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magnam culpa, vel harum cupiditate deserunt placeat provident odio a
+            eaque mollitia nulla consequatur rem corrupti officia quidem nam
+            quas. Sequi, inventore.
+          </div>
+        </div>
+      </section>
+      <!--facility-->
+      <section class="site-content site-location">
+        <div class="-text-center">
+          <p class="-header -text-upper">Location</p>
+
+          <p class="entry-content -pb4">
+            ทำเลที่ตั้งโครงการ ไดมอนด์ สูท คอนโดมิเนียมหรูพร้อมอยู่
+            ทำเลเขาทัพพระยา ระหว่าง หาดพัทยาและหาด จอมเทียนใกล้ทะเลเพียง 1.7
+            กิโลเมตร จาก Beach 5 นาที
+          </p>
+        </div>
+        <div class="-text-center -mb4">
+          <a href="" class="-btn-primary">แผนที่</a>
+          <a href="" class="-btn-primary">ขอเส้นทาง</a>
+        </div>
+        <div class="-mb6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.931704673229!2d100.87006594980984!3d12.91211099085024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31029668a370cb9d%3A0xbf8d8fe7535c1c03!2sDiamond%20Suites%20Resort!5e0!3m2!1sen!2sth!4v1607613082004!5m2!1sen!2sth"
+            width="100%"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <div class="nearby-nav -mb6">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="pills-map-tab"
+                data-toggle="pill"
+                href="#pills-map"
+                role="tab"
+                aria-controls="pills-map"
+                aria-selected="true"
+                >1Km.</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="pills-gmap-tab"
+                data-toggle="pill"
+                href="#pills-gmap"
+                role="tab"
+                aria-controls="pills-gmap"
+                aria-selected="false"
+                >4Km.</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-map"
+              role="tabpanel"
+              aria-labelledby="pills-map-tab"
+            >
+              <!--nearby-->
+              <div class="nearby -row-flex">
+                <div class="-col">
+                  <p class="-header">สิ่งอำนวยความสะดวก<br />โดยรอบโครงการ</p>
+                </div>
+                <div class="-col">
+                  <ul class="nearby-list s-grid -d2 -mt1">
+                    <li class="-col50">fasdfas</li>
+                    <li class="-col50">fasdfas</li>
+                    <li class="-col50">fasdfas</li>
+                    <li class="-col50">fasdfas</li>
+                  </ul>
+                </div>
+              </div>
+              <!--nearby-->
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-gmap"
+              role="tabpanel"
+              aria-labelledby="pills-gmap-tab"
+            >
+              <!--nearby-->
+              <div class="nearby -row-flex">
+                <div class="-col">
+                  <p class="-header">สิ่งอำนวยความสะดวก<br />โดยรอบโครงการ</p>
+                </div>
+                <div class="-col">
+                  <ul class="nearby-list s-grid -d2 -mt1">
+                    <li class="-col50">fasdfas</li>
+                    <li class="-col50">fasdfas</li>
+                    <li class="-col50">fasdfas</li>
+                    <li class="-col50">fasdfas</li>
+                  </ul>
+                </div>
+              </div>
+              <!--nearby-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Room-->
+      <section class="site-content site-room -mb6">
+        <div class="text-center -pt8 -bg-light">
+          <p class="-header -text-upper">Unit Type</p>
+          <p class="entry-content -pb4">แบบแปลนห้องตอบโจทย์ทุกฟังค์ชั่น</p>
+
+          <div class="-round-nav -mb4">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="pills-room1-tab"
+                  data-toggle="pill"
+                  href="#pills-room1"
+                  role="tab"
+                  aria-controls="pills-room1"
+                  aria-selected="true"
+                  >1-Bedroom</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="pills-room2-tab"
+                  data-toggle="pill"
+                  href="#pills-room2"
+                  role="tab"
+                  aria-controls="pills-room2"
+                  aria-selected="false"
+                  >2-Bedroom</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="-mb6">
+            <img
+              src="https://picsum.photos/id/1/1600/500"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-room1"
+                  role="tabpanel"
+                  aria-labelledby="pills-room1-tab"
+                >
+                  <!--Room Information-->
+                  <div class="room-detail">
+                    <div class="-col">
+                      <h2>1-Bedroom</h2>
+                      <p class="room-area">พื้นที่ใช้สอย 22 - 35ตร.ม.</p>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Vero illo fugit, adipisci ullam architecto sint
+                        eos quos nisi enim est animi mollitia deserunt tempore
+                        officia ut velit et cupiditate magnam.
+                      </p>
+                    </div>
+                    <div class="-col">
+                      <div class="amanity -mb4">
+                        <div class="item">
+                          <img src="images/ico-bed.svg" alt="" />
+                          <p class="quantity">1</p>
+                          <p class="quantity_title">ห้องนอน</p>
+                        </div>
+                        <div class="item">
+                          <img src="images/ico-bath.svg" alt="" />
+                          <p class="quantity">1</p>
+                          <p class="quantity_title">ห้องอาบน้ำ</p>
+                        </div>
+                        <div class="item">
+                          <img src="images/ico-sofa.svg" alt="" />
+                          <p class="quantity">1</p>
+                          <p class="quantity_title">ห้องนั่งเล่น</p>
+                        </div>
+                        <div class="item">
+                          <img src="images/ico-kitchen.svg" alt="" />
+                          <p class="quantity">1</p>
+                          <p class="quantity_title">ห้องครัว</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Room Information-->
+                  <!--Room Gallery-->
+                  <div class="room-gallery -mb3">
+                    <h3>Interior</h3>
+                    <div class="s-slider -d4 -m1.2 -dots-in">
+                      <div class="slider">
+                        <img src="https://picsum.photos/id/1/800/600" alt="" />
+                      </div>
+                      <div class="slider">
+                        <img src="https://picsum.photos/id/10/800/600" alt="" />
+                      </div>
+                      <div class="slider">
+                        <img
+                          src="https://picsum.photos/id/1005/800/600"
+                          alt=""
+                        />
+                      </div>
+                      <div class="slider">
+                        <img
+                          src="https://picsum.photos/id/1005/1600/500"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--Room Gallery-->
+                  <!--Accordion wrapper-->
+                  <h3>Floor Plan</h3>
+                  <div
+                    class="accordion md-accordion room-plan"
+                    id="accordionEx"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  >
+                    <!-- Accordion card -->
+                    <div class="card">
+                      <!-- Card header -->
+                      <div class="card-header" role="tab" id="headingOne1">
+                        <a
+                          data-toggle="collapse"
+                          data-parent="#accordionEx"
+                          href="#collapseOne1"
+                          aria-expanded="true"
+                          aria-controls="collapseOne1"
+                        >
+                          <h5 class="mb-0">
+                            1 Bedroom (35 ตร.ม.)
+                            <i class="las la-angle-down rotate-icon"></i>
+                          </h5>
+                        </a>
+                      </div>
+
+                      <!-- Card body -->
+                      <div
+                        id="collapseOne1"
+                        class="collapse show"
+                        role="tabpanel"
+                        aria-labelledby="headingOne1"
+                        data-parent="#accordionEx"
+                      >
+                        <div class="card-body">
+                          <img src="images/demo-plan.jpg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card">
+                      <!-- Card header -->
+                      <div class="card-header" role="tab" id="headingTwo2">
+                        <a
+                          class="collapsed"
+                          data-toggle="collapse"
+                          data-parent="#accordionEx"
+                          href="#collapseTwo2"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo2"
+                        >
+                          <h5 class="mb-0">
+                            Collapsible Group Item #2
+                            <i class="fas fa-angle-down rotate-icon"></i>
+                          </h5>
+                        </a>
+                      </div>
+
+                      <!-- Card body -->
+                      <div
+                        id="collapseTwo2"
+                        class="collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingTwo2"
+                        data-parent="#accordionEx"
+                      >
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Accordion card -->
+
+                    <!-- Accordion card -->
+                    <div class="card">
+                      <!-- Card header -->
+                      <div class="card-header" role="tab" id="headingThree3">
+                        <a
+                          class="collapsed"
+                          data-toggle="collapse"
+                          data-parent="#accordionEx"
+                          href="#collapseThree3"
+                          aria-expanded="false"
+                          aria-controls="collapseThree3"
+                        >
+                          <h5 class="mb-0">
+                            Collapsible Group Item #3
+                            <i class="fas fa-angle-down rotate-icon"></i>
+                          </h5>
+                        </a>
+                      </div>
+
+                      <!-- Card body -->
+                      <div
+                        id="collapseThree3"
+                        class="collapse"
+                        role="tabpanel"
+                        aria-labelledby="headingThree3"
+                        data-parent="#accordionEx"
+                      >
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high
+                          life accusamus terry richardson ad squid. 3 wolf moon
+                          officia aute, non cupidatat skateboard dolor brunch.
+                          Food truck quinoa nesciunt laborum eiusmod. Brunch 3
+                          wolf moon tempor, sunt aliqua put a bird on it squid
+                          single-origin coffee nulla assumenda shoreditch et.
+                          Nihil anim keffiyeh helvetica, craft beer labore wes
+                          anderson cred nesciunt sapiente ea proident. Ad vegan
+                          excepteur butcher vice lomo. Leggings occaecat craft
+                          beer farm-to-table, raw denim aesthetic synth nesciunt
+                          you probably haven't heard of them accusamus labore
+                          sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Accordion card -->
+                  </div>
+                  <!-- Accordion wrapper -->
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-room2"
+                  role="tabpanel"
+                  aria-labelledby="pills-room2-tab"
+                >
+                  <img src="https://picsum.photos/id/1/1600/500" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Room-->
+      <!--Promotion-->
+      <section class="site-content site-promotion -mb8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="-text-center">
+                <p class="-header -text-upper">BEST DEAL</p>
+                <p class="entry-content -pb2">ยูนิตแนะนำราคาพิเศษ</p>
+              </div>
+              <div class="s-grid -d4">
+                <article class="promotion-card">
+                  <span class="ribbon">-70%</span>
+                  <img src="https://picsum.photos/id/1/800/600" alt="" />
+                  <div class="info">
+                    <div class="-ma2">
+                      <strong class="entry-title"> 1- Bedroom </strong>
+                      <span class="room-use">(1 ห้องนอน 1 ห้องน้ำ)</span>
+                    </div>
+                    <div class="-divider"></div>
+                    <div class="-ma2">
+                      <p>ขนาดพื้นที่ใช้สอย 24ตารางเมตร</p>
+                      <div class="room-price">
+                        <span class="-col regular">3.59ล้านบาท</span>
+                        <span class="-col sell">3.59ล้านบาท</span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="promotion-card">
+                  <span class="ribbon">-70%</span>
+                  <img src="https://picsum.photos/id/1/800/600" alt="" />
+                  <div class="info">
+                    <div class="-ma2">
+                      <strong class="entry-title"> 1- Bedroom </strong>
+                      <span class="room-use">(1 ห้องนอน 1 ห้องน้ำ)</span>
+                    </div>
+                    <div class="-divider"></div>
+                    <div class="-ma2">
+                      <p>ขนาดพื้นที่ใช้สอย 24ตารางเมตร</p>
+                      <div class="room-price">
+                        <span class="-col regular">3.59ล้านบาท</span>
+                        <span class="-col sell">3.59ล้านบาท</span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="promotion-card">
+                  <span class="ribbon">-70%</span>
+                  <img src="https://picsum.photos/id/1/800/600" alt="" />
+                  <div class="info">
+                    <div class="-ma2">
+                      <strong class="entry-title"> 1- Bedroom </strong>
+                      <span class="room-use">(1 ห้องนอน 1 ห้องน้ำ)</span>
+                    </div>
+                    <div class="-divider"></div>
+                    <div class="-ma2">
+                      <p>ขนาดพื้นที่ใช้สอย 24ตารางเมตร</p>
+                      <div class="room-price">
+                        <span class="-col regular">3.59ล้านบาท</span>
+                        <span class="-col sell">3.59ล้านบาท</span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="promotion-card">
+                  <span class="ribbon">-70%</span>
+                  <img src="https://picsum.photos/id/1/800/600" alt="" />
+                  <div class="info">
+                    <div class="-ma2">
+                      <strong class="entry-title"> 1- Bedroom </strong>
+                      <span class="room-use">(1 ห้องนอน 1 ห้องน้ำ)</span>
+                    </div>
+                    <div class="-divider"></div>
+                    <div class="-ma2">
+                      <p>ขนาดพื้นที่ใช้สอย 24ตารางเมตร</p>
+                      <div class="room-price">
+                        <span class="-col regular">3.59ล้านบาท</span>
+                        <span class="-col sell">3.59ล้านบาท</span>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Promotion-->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="site-contact -pt10 -mb5">
+                <form>
+                  <div class="contact-form">
+                    <p class="text-header">
+                      ลงทะเบียนรับข่าวสารเพิ่มเติมและสิทธิ์พิเศษก่อนใคร
+                    </p>
+                    <div class="flex-row">
+                      <div class="flex-col">
+                        <input type="text" class="form-control" />
+                      </div>
+                      <div class="flex-col">
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="flex-row">
+                      <div class="flex-col">
+                        <input type="text" class="form-control" />
+                      </div>
+                      <div class="flex-col">
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="flex-row">
+                      <div class="flex-col">
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="flex-row">
+                      <div>
+                        <input type="checkbox" name="" id="" class="chkAgree" />
+                      </div>
+                      <div class="flex-col">
+                        <p class="form-agree">
+                          ข้าพเจ้าตกลงรับข่าวสาร ข้อเสนอโปรโมชั่น
+                          ข้อมูลส่งเสริมการขายและการตลาด ผ่านช่องทางและสื่อต่างๆ
+                          ที่เกี่ยวข้องกับสินค้า และบริการของ บมจ.พร็อพเพอร์ตี้
+                          เพอร์เฟคและบริษัทในเครือ
+                          เจ้าหน้าที่แต่ละโครงการจะติดต่อกลับเพื่อให้ข้อมูล
+                          พร้อมสิทธิพิเศษเฉพาะผู้ลงทะเบียน
+                        </p>
+                      </div>
+                    </div>
+                    <a href="" class="btn-submit">ลงทะเบียน</a>
+                  </div>
+                </form>
+              </div>
+              <div class="-mb5"><img src="images/logo-white.svg" alt="" /></div>
+              <div class="site-social nav-menu -mb5">
+                <ul>
+                  <li>
+                    <a href=""><img src="images/ico-facebook.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/ico-twitter.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/ico-instagram.svg" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="site-footer-menu nav-menu -mb5">
+                <ul>
+                  <li><a href="">สิ่งอำนวยความสะดวก</a></li>
+                  <li><a href="">สถานที่ตั้ง</a></li>
+                  <li><a href="">ประเภทห้อง</a></li>
+                  <li><a href="">โปรโมชั่น</a></li>
+                </ul>
+              </div>
+              <div class="copyright -pb6">
+                <p>
+                  Copyright @ 2008 Diamond Suites Condominium Pattaya Thailand
+                  All Rights Reserved | Developed by Kiyana Co.,Ltd.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/keen-slider/keen-slider.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,363 @@
+// out: ../style.css, compress: true, sourceMap: false, autoprefixer: last 5 versions, groupmedia: true
+body{
+    font-family: 'Prompt', sans-serif;
+    font-size:16px;
+    font-weight: 300;
+}
+
+//Font
+.-header{
+    font-size:36px;
+    font-weight: 400;
+}
+.-text-upper{
+    text-transform: uppercase;
+}
+.bg-gray{
+    background-color:#eeeeee;
+}
+.-bg-light{
+    background-color:#E6EEF2;
+}
+.top-menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:100px;
+    margin-right:100px;
+    height:100px;
+    
+    .logo{
+        width:155px;
+        img{
+            max-width:100%;
+        }
+    }
+}
+a{
+    text-decoration: none;
+    color:#5A5A5A;
+    &:hover{
+        text-decoration: none;
+        color:#0C779F;
+    }
+}
+.nav-menu{
+    ul{
+        list-style:none;
+        margin-bottom:0;
+    }
+    li{
+        display:inline-block;
+        margin:0 15px;
+    }
+}
+.-btn-primary{
+    width:200px;
+          height:50px;
+          line-height: 50px;
+          border-radius:25px;
+          display:inline-block;
+          background-color:#0C779F;
+          text-align:center;
+          margin:0 15px;
+          color:#ffffff;
+          &:hover{
+              color:#ffffff;
+          }
+ }
+.-btn-transparent{
+   display:inline-block;
+   border:3px solid #0C779F;
+   padding:0 30px;
+   height:60px;
+   line-height:60px;
+   font-weight: 400;
+}
+.-btn-action-large{
+   display:inline-block;
+   border-radius: 30px;
+   background-color:#0C779F;
+   color:#ffffff;
+   padding:0 30px;
+   height:60px;
+   line-height:60px;
+   font-weight: 400;
+}
+.site-content{
+    
+    h2{
+        font-size:16px;
+        font-weight: 400;
+    }
+    .entry-content{
+        margin:0 auto;
+        max-width:460px;
+    }
+}
+footer{
+    background-color:#10779F;
+    text-align: center;
+}
+footer .nav-menu a{
+    color:#ffffff;
+}
+.site-footer-menu{
+    font-size:14px;
+}
+.copyright{
+    color:#ffffff;
+    font-size:12px;
+    font-weight: 300;
+}
+.contact-form{
+    max-width:600px;
+    margin:0 auto;
+    color:#ffffff;
+    text-align: center;
+    .text-header{
+        font-size:24px;
+    }
+    .flex-row{
+        display:flex;
+    }
+    .flex-col{
+        flex:1;
+        padding:5px;
+    }
+    input[type="text"]{
+        width:100%;
+    }
+    .btn-submit{
+        display:inline-block;
+        border-radius: 30px;
+        background-color:#FFEE27;
+        color:#222222;
+        width:200px;
+        height:60px;
+        line-height:60px;
+        font-weight: 400;
+        
+    }
+    .form-agree{
+        font-size:12px;
+        text-align: left;
+    }
+    
+}
+.chkAgree{
+    margin-top:12px;
+    display:inline-block;
+    
+}
+
+.las.bs4{
+    font-size:40px;
+}
+
+.md-accordion .card .la-angle-down {
+    float: right;
+}
+
+.md-accordion .card .card-header a:not(.collapsed) .rotate-icon {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.room-detail{
+    text-align: left;
+    
+    h2{
+        font-size:42px;
+        font-weight: 400;
+    }
+    .-col{
+        flex: 1;
+    }
+    @media(min-width:768px){
+        display:flex;
+    }
+}
+.room-size{
+    font-size:20px;
+}
+.amanity{
+    display:flex;
+    
+    .item{
+        flex:1;
+        margin: 4px;
+        background-color:#E6EEF2;
+        height: 100px;
+        border-radius:4px;
+        text-align: center;
+        padding-top:15px;
+    }
+    .quantity{
+        margin-bottom:0px;
+    }
+    .quantity_title{
+        font-size:14px;
+    }
+    @media (min-width:768px){
+        margin-left:30px;
+    }
+}
+
+.promotion-card {
+    
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #dddddd;
+    border-radius:0px 0px 4px 4px;
+    .ribbon {
+        width: 150px;
+        height: 34px;
+        top: 20px;
+        left: -35px;
+        position: absolute;
+        display: block;
+        background: #FF0000;
+        color: #333;
+        font-family: arial;
+        font-size: 18px;
+        color:white;
+        text-align: center;
+        line-height: 34px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+      }
+      img{
+          max-width:100%;
+          border-radius:4px 4px 0 0;
+      }
+      .entry-title{
+          display:block;
+      }
+      .room-use{
+          color: #aaaaaa;
+          font-size:0.9em;
+      }
+  }
+
+  .room-price{
+      
+      display:flex;
+      .-col{
+          flex:1;
+      }
+      .regular{
+        color:#888888;
+      }
+      .sell{
+        text-align:right;
+        color:#222222;
+      }
+  }
+  .nearby{
+    max-width:800px;
+    margin:0 auto;
+    .-header{
+        font-size:28px;
+        color:#0C779F;
+        
+    }
+  }
+  .nearby-list{
+    padding:0px;
+    
+      list-style: none;
+  }
+  .nearby-nav{
+    .nav-pills .nav-link.active{
+        background-color:#0C779F;
+        }
+        .nav-pills .nav-link {
+          width:100px;
+          height:100px;
+          border-radius:50%;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          background-color:#eeeeee;
+          text-align:center;
+      }
+  }
+  
+.nearby-nav{
+    position: relative;
+    
+    .nav-pills{
+        justify-content: center;
+        z-index:10;
+        position: relative;
+    }
+    &:before{
+        width:100%;
+        display:block;
+        content:'';
+        border-top:3px solid #0C779F;
+        position: absolute;
+        top:65px;
+        left:0px;
+        z-index:1;
+    }
+}
+.nearby-nav .nav-item{
+    margin:15px;
+}
+
+.-round-nav{
+    .nav-pills{
+        justify-content: center;
+    }
+    .nav-pills .nav-link.active{
+        background-color:#0C779F;
+        }
+        .nav-pills .nav-link {
+          width:200px;
+          height:50px;
+          border-radius:25px;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          background-color:#ffffff;
+          text-align:center;
+          margin:0 15px;
+      }
+  }
+  .s-slider .dots{
+      display:none;
+  }
+  .room-area{
+      font-size:20px;
+  }
+  .site-room{
+      .entry-content{
+          font-size:20px;
+      }
+  }
+  .room-plan {
+    .card{
+        border:none;
+    }
+    .card-header{
+        margin-bottom:0px !important;
+        background-color:#ffffff;
+        border-bottom:1px solid #888888;
+    }
+    .card-body{
+        text-align: center;
+    }
+  }
+  .room-gallery{
+      img{
+          max-height: 100%;
+          max-width:100%;
+      }
+      .slider{
+        height:300px;          
+      }
+  }

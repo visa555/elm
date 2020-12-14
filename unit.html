@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/keen-slider/keen-slider.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section class="site-content site-room">
+        <div class="text-center">
+          <p class="-header -text-upper">Unit Type</p>
+          <p class="entry-content -pb4">แบบแปลนห้อง</p>
+        </div>
+
+        <div>
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="pills-room1-tab"
+                data-toggle="pill"
+                href="#pills-room1"
+                role="tab"
+                aria-controls="pills-room1"
+                aria-selected="true"
+                >แผนที่</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="pills-room2-tab"
+                data-toggle="pill"
+                href="#pills-room2"
+                role="tab"
+                aria-controls="pills-room2"
+                aria-selected="false"
+                >ขอเส้นทาง</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-room1"
+              role="tabpanel"
+              aria-labelledby="pills-room1-tab"
+            >
+              <!--Room Information-->
+              <div class="room-detail">
+                <div class="col">
+                  <h2>1-Bedroom</h2>
+                  <p class="room-area">พื้นที่ใช้สอย 22 - 35ตร.ม.</p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Vero illo fugit, adipisci ullam architecto sint eos quos
+                    nisi enim est animi mollitia deserunt tempore officia ut
+                    velit et cupiditate magnam.
+                  </p>
+                </div>
+                <div class="col">
+                  <div class="amanity">
+                    <div class="item">afsdf</div>
+                    <div class="item">fasd</div>
+                    <div class="item">asdf</div>
+                    <div class="item">fasdf</div>
+                  </div>
+                </div>
+              </div>
+              <!--Room Information-->
+              <!--Room Gallery-->
+              <div class="room-gallery">
+                <h3>Interior</h3>
+                <div class="s-slider -d4 -m1.2 -full -dots-in">
+                  <div class="slider">
+                    <img src="https://picsum.photos/id/1/1600/500" alt="" />
+                  </div>
+                  <div class="slider">
+                    <img src="https://picsum.photos/id/10/1600/500" alt="" />
+                  </div>
+                  <div class="slider">
+                    <img src="https://picsum.photos/id/1005/1600/500" alt="" />
+                  </div>
+                  <div class="slider">
+                    <img src="https://picsum.photos/id/1005/1600/500" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!--Room Gallery-->
+              <!--Accordion wrapper-->
+              <div
+                class="accordion md-accordion"
+                id="accordionEx"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <!-- Accordion card -->
+                <div class="card">
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="headingOne1">
+                    <a
+                      data-toggle="collapse"
+                      data-parent="#accordionEx"
+                      href="#collapseOne1"
+                      aria-expanded="true"
+                      aria-controls="collapseOne1"
+                    >
+                      <h5 class="mb-0">
+                        Collapsible Group Item #1
+                        <i class="las la-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+
+                  <!-- Card body -->
+                  <div
+                    id="collapseOne1"
+                    class="collapse show"
+                    role="tabpanel"
+                    aria-labelledby="headingOne1"
+                    data-parent="#accordionEx"
+                  >
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute, non cupidatat skateboard dolor brunch. Food truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt aliqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice
+                      lomo. Leggings occaecat craft beer farm-to-table, raw
+                      denim aesthetic synth nesciunt you probably haven't heard
+                      of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="headingTwo2">
+                    <a
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-parent="#accordionEx"
+                      href="#collapseTwo2"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo2"
+                    >
+                      <h5 class="mb-0">
+                        Collapsible Group Item #2
+                        <i class="fas fa-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+
+                  <!-- Card body -->
+                  <div
+                    id="collapseTwo2"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingTwo2"
+                    data-parent="#accordionEx"
+                  >
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute, non cupidatat skateboard dolor brunch. Food truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt aliqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice
+                      lomo. Leggings occaecat craft beer farm-to-table, raw
+                      denim aesthetic synth nesciunt you probably haven't heard
+                      of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+                  <!-- Card header -->
+                  <div class="card-header" role="tab" id="headingThree3">
+                    <a
+                      class="collapsed"
+                      data-toggle="collapse"
+                      data-parent="#accordionEx"
+                      href="#collapseThree3"
+                      aria-expanded="false"
+                      aria-controls="collapseThree3"
+                    >
+                      <h5 class="mb-0">
+                        Collapsible Group Item #3
+                        <i class="fas fa-angle-down rotate-icon"></i>
+                      </h5>
+                    </a>
+                  </div>
+
+                  <!-- Card body -->
+                  <div
+                    id="collapseThree3"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingThree3"
+                    data-parent="#accordionEx"
+                  >
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute, non cupidatat skateboard dolor brunch. Food truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt aliqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice
+                      lomo. Leggings occaecat craft beer farm-to-table, raw
+                      denim aesthetic synth nesciunt you probably haven't heard
+                      of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <!-- Accordion card -->
+              </div>
+              <!-- Accordion wrapper -->
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-room2"
+              role="tabpanel"
+              aria-labelledby="pills-room2-tab"
+            >
+              <img src="https://picsum.photos/id/1/1600/500" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/keen-slider/keen-slider.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
